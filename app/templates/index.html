@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to the Mood Booster</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body class="white">
+  
+  <h1 class="center-align"> What is your mood? </h1>
+  
+  <form method="post" action="/results">
+    <p>
+      <label class="block">
+        <input name="mood" type="radio" value="happy" checked />
+        <span>Happy</span>
+      </label>
+    </p>
+    <p>
+      <label class="block">
+        <input name="mood" type="radio" value="sad" />
+        <span>Sad</span>
+      </label class="block">
+    </p>
+    <p>
+      <label class="block">
+        <input name="mood" type="radio" value="ambitious"  />
+        <span>Ambitious</span>
+      </label>
+    </p>
+    <p>
+      <label class="block">
+        <input name="mood" type="radio" value="angry" />
+        <span>Angry</span>
+      </label>
+      <br></br>
+      <input type="submit" name="submit"/>
+    </p>
+  </form>
+  
+  <!--<form>-->
+    
+    
+  <!--</form>-->
+  <!-- Badge/button for Quiz -->
+
+  <!--This is Leo's-->
+  <!--<form action="/action_page.php" method="get">-->
+  <!--  First name: <input type="text" name="fname"><br>-->
+  <!--  Last name: <input type="text" name="lname"><br>-->
+  <!--  <button type="submit">Submit</button>-->
+  <!--  <button type="submit" formmethod="post">Submit using POST</button>-->
+  <!--</form>-->
+  
+  
+  <!--<form>-->
+  <!--  <input type="radio" name="gender" value="male" checked> Male<br>-->
+  <!--  <input type="radio" name="gender" value="female"> Female<br>-->
+  <!--  <input type="radio" name="gender" value="other"> Other-->
+  <!--</form>-->
+  
+  
+  
+  
+  
+  
+  <form method="post" action="/quiz">
+    <button class= "btn-large pulse"><i class="material-icons" type="submit" formtarget="_blank"></i>quiz</button>
+  </form>
+  
+
+  
+
+
+</body>
+
+</html>
